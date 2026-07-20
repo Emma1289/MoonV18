@@ -358,7 +358,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     break;
     case ST_MACRO_6:
     if (record->event.pressed) {
-      SEND_STRING(SS_LGUI(SS_TAP(X_R)) SS_DELAY(100) "KOFQAS220" SS_DELAY(100) SS_TAP(X_ENTER))
+      SEND_STRING(SS_LGUI(SS_TAP(X_R)) SS_DELAY(100) "KOFQAS220" SS_DELAY(100) SS_TAP(X_ENTER));
     }
     break;
     case ST_MACRO_7:
