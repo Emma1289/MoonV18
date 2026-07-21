@@ -1,5 +1,5 @@
-#define ES_LA_11 S(KC_DOT)
 #define ES_LA_13 S(KC_COMMA)
+#define ES_LA_11 S(KC_DOT)
 #define ES_LA_24 KC_LBRC
 #define ES_LA_08 KC_SCLN
 #define KC_PC_UNDO LCTL(KC_Z)
